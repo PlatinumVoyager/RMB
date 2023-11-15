@@ -1,4 +1,5 @@
-# RMB
+![image](https://github.com/PlatinumVoyager/RMB/assets/116006542/91315e15-e29a-4a91-beda-c992450b2375)
+
 Return Message Buffer: Generic C utility header file with a language neutral `GetLastError()` function parser.
 
 ## Usage
