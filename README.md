@@ -50,7 +50,7 @@ RMB simply calls a Windows 32 bit API function that is responsible for retrievin
 > [!NOTE]
 System defined error codes are 32 bit "Double Words" or a DWORD (unsigned long) in size. The 29th bit is reserved for application specific error codes. Bit 31 is the most significant bit.
 
-WDSECI is an entry of Windows defined system wide error codes that an application (calling process -> spwan threads) can push onto the stack of its local "virtually" allocated thread context. These values are simply stored in registers that vary depending upon the device CPU architecture to which the current process is using its alloted time-slice (i.e, RUNNING state).
+WDSECI is an entry of Windows defined system wide error codes that an application (calling process -> spawn threads) can push onto the stack of its local "virtually" allocated thread context. These values are simply stored in registers that vary depending upon the device CPU architecture to which the current process is using its alloted time-slice (i.e, RUNNING state).
 
 
 ```c
