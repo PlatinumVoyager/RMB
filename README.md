@@ -30,7 +30,7 @@ int main(void)
     // the Byte Order Mark or BOM is an identifier set by the first two bytes in a data stream that is to be
     // interpreted as text by the calling processes/application, etc. The BOM defines the endian value of the data stream.
     // this value can either be of LE (Little Endian) or BE (Big Endian) variants.
-    // LE = least significant byte of binary representation is processed first. BE = most significant bit of binary representation is processed first.
+    // LE = least significant bit of binary representation is processed first. BE = most significant bit of binary representation is processed first.
     fwprintf(stderr, L"Error - %s\n", returnMsgBuffer(error));  // <- a.k.a convert system bit error message to a human readable text string and print to standard out
 
     // Ex: Error - The cluster quorum resource is not allowed to have any dependencies.
