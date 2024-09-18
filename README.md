@@ -1,5 +1,9 @@
 ![image](https://github.com/PlatinumVoyager/RMB/assets/116006542/91315e15-e29a-4a91-beda-c992450b2375)
 
+[![PlatinumVoyager - RMB](https://img.shields.io/static/v1?label=PlatinumVoyager&message=RMB&color=blue&logo=github)](https://github.com/PlatinumVoyager/RMB "Go to GitHub repo")
+[![stars - RMB](https://img.shields.io/github/stars/PlatinumVoyager/RMB?style=social)](https://github.com/PlatinumVoyager/RMB)
+[![forks - RMB](https://img.shields.io/github/forks/PlatinumVoyager/RMB?style=social)](https://github.com/PlatinumVoyager/RMB)
+
 Return Message Buffer: Generic C utility header file with a language neutral `GetLastError()` function parser.
 
 ## Usage
